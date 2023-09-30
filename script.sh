@@ -6,6 +6,7 @@ sudo apt-get upgrade -y
 sudo apt-get install screen -y
 clear
 echo "Now a program will be executed that will give you a screen in which you will have to press enter (it will put it on the screen)"
+sleep 3
 screen
 sudo curl -sSL https://get.docker.com | sh
 sudo docker pull honeygain/honeygain:latest
